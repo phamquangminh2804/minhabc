@@ -1,0 +1,31 @@
+.fun{
+    display: block;
+    font-size: 100px;
+    position: relative;
+    margin: auto;
+}
+
+.sad{
+    display: none;
+    font-size: 100px;
+    position: absolute;
+    top:0;
+}
+
+.abc{
+    display: block;
+    font-size: 100px;
+    position: absolute;
+    top:0;
+}
+
+.fun:hover .sad{
+    display: block;
+    cursor: pointer;
+}
+
+.sad:hover .abc{
+    display: block;
+    cursor: pointer;
+}
+
